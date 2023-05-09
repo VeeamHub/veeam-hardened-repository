@@ -8,8 +8,8 @@ This tool is community supported and not an officially supported Veeam product.
 
 **System Requirements:**
 
-Must be run as elevated user
-Must be run on fresh Ubuntu 20.04 installation
+- Must be run as elevated user
+- Must be run on fresh Ubuntu 20.04 installation
 
 **Operation:**
 
