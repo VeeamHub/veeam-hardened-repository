@@ -1,6 +1,6 @@
-# VeeamHub Repository Template
+# Veeam Hardened Linux Repository
 
-This linux script can be used to apply hardening settings based on DISA STIG to [Veeam Hardened Linux Repository](https://helpcenter.veeam.com/docs/backup/vsphere/hardened_repository.html?ver=120). Download nad run it on fresh Ubuntu 20.04 installation.
+This linux script can be used to apply hardening settings based on DISA STIG to [Veeam Hardened Linux Repository](https://helpcenter.veeam.com/docs/backup/vsphere/hardened_repository.html?ver=120). Download and run it on fresh Ubuntu 20.04 installation.
 
 This tool is community supported and not an officially supported Veeam product.
 
