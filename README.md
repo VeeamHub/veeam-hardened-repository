@@ -1,24 +1,33 @@
 # VeeamHub Repository Template
 
-Here are instructions on how to use this template:
+This linux script can be used to apply hardening settings based on DISA STIG to [Veeam Hardened Linux Repository](https://helpcenter.veeam.com/docs/backup/vsphere/hardened_repository.html?ver=120). Download nad run it on fresh Ubuntu 20.04 installation.
 
-* Navigate to the [main page of this repository](https://github.com/VeeamHub/veeamhub-template)
-* Follow instructions for [creating a repository from a template](https://help.github.com/en/articles/creating-a-repository-from-a-template)
-  * _Repository names **must** have the prefix:_ **veeam-**
-  * Example: _veeam-repo-name_
-* Replace **all** repository-specific links
-  * `issues` link in _README.md_
-  * `create an issue` link in _README.md_
-  * `opening a new issue` link in _CONTRIBUTING.md_
-* Remove the instructions from this section and replace it with information describing this repository.
+This tool is community supported and not an officially supported Veeam product.
 
 ## 📗 Documentation
 
-_Place documentation or links to documentation here._
+**System Requirements:**
+
+Must be run as elevated user
+Must be run on fresh Ubuntu 20.04 installation
+
+**Operation:**
+
+1. Connect through SSH to fresh Ubuntu 20.04 server installation
+2. Copy script to that server.
+3. Run the script with the following command:
+```bash
+sudo bash veeam.harden.sh > output.txt 2>&1
+```
+
+Note: If you need more verbose output just run that command:
+```bash
+sudo bash veeam.harden.sh
+```
 
 ## ✍ Contributions
 
-We welcome contributions from the community! We encourage you to create [issues](https://github.com/VeeamHub/{repo-name}/issues/new/choose) for Bugs & Feature Requests and submit Pull Requests. For more detailed information, refer to our [Contributing Guide](CONTRIBUTING.md).
+We welcome contributions from the community! We encourage you to create [issues](https://github.com/VeeamHub/veeam-hardened-repository/issues/new/choose) for Bugs & Feature Requests and submit Pull Requests. For more detailed information, refer to our [Contributing Guide](CONTRIBUTING.md).
 
 ## 🤝🏾 License
 
@@ -26,4 +35,4 @@ We welcome contributions from the community! We encourage you to create [issues]
 
 ## 🤔 Questions
 
-If you have any questions or something is unclear, please don't hesitate to [create an issue](https://github.com/VeeamHub/{repo-name}/issues/new/choose) and let us know!
+If you have any questions or something is unclear, please don't hesitate to [create an issue](https://github.com/VeeamHub/veeam-hardened-repository/issues/new/choose) and let us know!
