@@ -10,6 +10,7 @@ This tool is community supported and not an officially supported Veeam product.
 
 - Must be run as elevated user
 - Must be run on fresh Ubuntu 20.04 installation
+- Must be used for Veeam Backup & Replication v12
 
 **Operation:**
 
